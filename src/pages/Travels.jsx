@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-const BlogContainer = styled.div`
+const TravelsContainer = styled.div`
   max-width: 1200px;
   margin: 0 auto;
   padding: 2rem;
@@ -19,17 +19,17 @@ const Description = styled.p`
   line-height: 1.6;
 `;
 
-function Blog() {
+function Travels() {
   return (
-    <BlogContainer>
-      <Title>Blog</Title>
+    <TravelsContainer>
+      <Title>Travels</Title>
       <Description>
-        Some not so organized thoughts on things I've learned. A collection of ideas, 
-        insights, and reflections from my journey through learning and discovery.
+        Places I've been, both mentally and physically. A journey through different 
+        landscapes, ideas, and experiences that have shaped my perspective.
       </Description>
-      {/* Blog content will be added here */}
-    </BlogContainer>
+      {/* Travel content will be added here */}
+    </TravelsContainer>
   );
 }
 
-export default Blog; 
+export default Travels; 

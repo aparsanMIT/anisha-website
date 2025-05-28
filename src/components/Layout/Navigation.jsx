@@ -74,11 +74,11 @@ function Navigation() {
         onMouseEnter={() => setIsDropdownOpen(true)}
         onMouseLeave={() => setIsDropdownOpen(false)}
       >
-        <NavItem to="/cell">Cell</NavItem>
+        <NavItem to="/cell">I Am A Cell </NavItem>
         <DropdownContent isOpen={isDropdownOpen}>
-          <DropdownItem to="/papers">Papers & Readings</DropdownItem>
           <DropdownItem to="/classes">Classes</DropdownItem>
           <DropdownItem to="/blog">Blog</DropdownItem>
+          <DropdownItem to="/travels">Travels</DropdownItem>
         </DropdownContent>
       </DropdownContainer>
     </Nav>

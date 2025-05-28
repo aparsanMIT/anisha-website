@@ -5,9 +5,9 @@ import Footer from './Footer';
 import About from '../../pages/About';
 import CV from '../../pages/CV';
 import Cell from '../../pages/Cell';
-import Papers from '../../pages/Papers';
 import Classes from '../../pages/Classes';
 import Blog from '../../pages/Blog';
+import Travels from '../../pages/Travels';
 
 const LayoutContainer = styled.div`
   display: flex;
@@ -32,9 +32,9 @@ function Layout() {
           <Route path="/" element={<About />} />
           <Route path="/cv" element={<CV />} />
           <Route path="/cell" element={<Cell />} />
-          <Route path="/papers" element={<Papers />} />
           <Route path="/classes" element={<Classes />} />
           <Route path="/blog" element={<Blog />} />
+          <Route path="/travels" element={<Travels />} />
         </Routes>
       </MainContent>
       <Footer />
